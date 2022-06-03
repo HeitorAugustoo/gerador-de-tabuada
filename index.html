@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabuada</title>
+</head>
+<body>
+    <main>
+        <section class="gerador" id="gerador">
+            <h1>Gerador de Tabuada</h1>
+            <input type="number" id="number" class="number" placeholder="Digite um número de 1 a 100:">
+            <button id="button" class="button" onclick="geraTabuada()">Gerar Tabuada</button>
+        </section>
+        
+        <section class="tabuada hide" id="tabuada">
+            <span class="titulo" id="titulo">Tabuada Gerada Com Sucesso!</span>
+            <p id="tabuadatxt"></p>
+            <input type="button" value="Voltar" id="refresh" class="button" onclick="refreshPage()">
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
